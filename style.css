@@ -1,3 +1,39 @@
+header{
+    background-color: rgba(200, 200, 0, 0.4);
+    padding: 20px 0;
+    position: absolute top;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+img{
+    width: 25%;
+    margin:initial;
+}
+
 #page-container {
     position: relative;
     min-height: 100vh;
@@ -8,7 +44,7 @@
 }
 
 #footer {
-    background-color: cadetblue;
+    background-color: green;
     position: absolute;
     bottom: auto;
     width: 100%;
